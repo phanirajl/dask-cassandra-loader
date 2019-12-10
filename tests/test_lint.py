@@ -8,7 +8,7 @@ import pycodestyle  # formerly known as pep8
 def test_pep8_conformance():
     """Test that we conform to PEP-8."""
     check_paths = [
-        'dask-cassandra-loader',
+        'dask_cassandra_loader',
         'tests',
     ]
     exclude_paths = []
@@ -39,5 +39,5 @@ def test_pep8_conformance():
             Run `pip install --upgrade yapf` to install the latest version
             of yapf.
         """))
-
-    assert success, "Your code does not conform to PEP8"
+    else:
+        raise AssertionError("Your code does not conform to PEP8")

@@ -1,3 +1,22 @@
+.. image:: https://readthedocs.org/projects/dask-cassandra-loader/badge/?version=latest
+    :target: https://dask-cassandra-loader.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Build Status
+
+.. image:: https://travis-ci.org/NLeSC/dask-cassandra-loader.svg?branch=master
+    :target: https://travis-ci.org/NLeSC/dask-cassandra-loader
+    :alt: Build Status
+
+.. image:: https://api.codacy.com/project/badge/Grade/e0685caa122140f582c64c479a5a1da5
+    :target: https://www.codacy.com/manual/r.goncalves/dask-cassandra-loader
+    :alt: Codacy Grade
+    
+.. image:: https://api.codacy.com/project/badge/Coverage/e0685caa122140f582c64c479a5a1da5
+    :target: https://www.codacy.com/manual/r.goncalves/dask-cassandra-loader
+    :alt: Code Coverage
+    
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3482935.svg
+   :target: https://doi.org/10.5281/zenodo.3482935
+
 ################################################################################
 dask-cassandra-loader
 ################################################################################
@@ -31,7 +50,7 @@ Documentation
 
 .. _README:
 
-Include a link to your project's full documentation here.
+If you want more information about dask_cassandra_loader API, have a look at the `dask_cassandra_loader documentation <https://dask-cassandra-loader.readthedocs.io/en/latest/?badge=latest>`_.
 
 Contributing
 ************

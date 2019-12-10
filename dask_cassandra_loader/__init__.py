@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-
-import logging
+"""Documentation about the Dask Cassandra Loader module."""
 
 from .__version__ import __version__
-
-logging.getLogger(__name__).addHandler(logging.NullHandler())
+from .loader import Loader, PagedResultHandler
 
 __author__ = "Romulo Goncalves"
 __email__ = 'r.goncalves@esciencecenter.nl'
